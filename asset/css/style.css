@@ -1,0 +1,660 @@
+
+/* === Start css coustomise property === */
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    text-transform: none;
+    transition: all .2s linear;
+    font-family: "Poppins", sans-serif;
+}
+
+html,body{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+section{
+    padding: 7rem 9%;
+}
+
+::-webkit-scrollbar{
+    width: 0.5rem;
+    background: #414262;
+    
+}
+
+
+::-webkit-scrollbar-thumb{
+    width: 0.5rem;
+    background:#d76e57 ;
+    border-radius:5rem ;
+}
+/* === Start css coustomise property close  === */
+
+
+/* ==========>
+Header style start
+===========> */
+header{
+    width: 100%;
+    padding: 2rem 9%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    z-index: 1000;
+}
+
+.logo .fa-salad{
+    color: #cf6a40;
+
+}
+
+.logo  a{
+    font-size: 2rem;
+    color: #201b24;
+}
+
+header .navbar{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+header .navbar li a{
+    font-size: 1.5rem;
+    color: #201b24;
+    font-weight: 500;
+    transition: all 0.3s linear;
+}
+
+header .navbar li a:hover{
+    color: #cf6a40;
+}
+
+header .navbar .none{
+    display: none;
+}
+
+header .buttone{
+    display: flex;
+    align-items: center;
+}
+
+header .buttone a{
+    font-size: 1.5rem;
+    color: #201b24;
+    font-weight: 500;
+    margin-right: 1rem;
+}
+
+.btn{
+    padding: 1rem 1.8rem;
+    margin-right: 0;
+    color: #fff;
+    background: #d6764d;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header .bx{
+    color: #201b24;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+/* ==========>
+Home style start
+===========> */
+.home_container{
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 5rem;
+    background: #f6e6d96b;
+}
+
+.home_container .iamge_continer{
+    width: 100%;
+}
+
+.home_container .iamge_continer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home_container .home_text_continer h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.home_container .home_text_continer p{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    width: 350px;
+    margin-top: 2rem;
+}
+.home_container .home_text_continer .play_buttone {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.home_container .home_text_continer .play_buttone .btn{
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.home_container .home_text_continer .play_buttone .bx-play{
+    font-size: 3rem;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #201b24;
+    border: 2px solid #6c6b6a;
+    border-radius: 50px;
+}
+
+
+.home_container .home_text_continer .play_buttone h6{
+    color:#6c6b6a ;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.demo_box{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.home_container .home_text_continer  .image_text{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.home_container .home_text_continer  .image_text .imagebox{
+    display: flex;
+    align-items: center;
+}
+
+.home_container .home_text_continer  .image_text .imagebox img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.home_container .home_text_continer  .image_text .text_box h5{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.home_container .home_text_continer  .image_text .text_box h6{
+    font-size: 1.3rem;
+}
+
+.home_container .home_text_continer  .image_text .text_box h6 .bxs-star{
+    color: #ecb33f;
+}
+
+.home_container .iamge_continer{
+    width: 100%;
+    height: 80%;
+}
+
+.home_container .iamge_continer img{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+/* =============
+Masal Shop start
+============= */
+
+.masla_shop{
+    width: 100%;
+    background: #e5e4ea;
+}
+
+.masla_shop h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.masla_shop p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.masla_shop .shop_card_continer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.masla_shop .shop_card_continer .card{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background: #ffffff52;
+}
+
+.masla_shop .shop_card_continer .card:hover{
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+}
+
+.masla_shop .shop_card_continer .card .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.masla_shop .shop_card_continer .card img{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.masla_shop .shop_card_continer .card p{
+    font-size: 1rem;
+    width: 200px;
+    text-align: start;
+    margin-bottom: 2rem;
+}
+
+.masla_shop .shop_card_continer .card h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 5rem;
+}
+
+.masla_shop .shop_card_continer .card h5{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.masla_shop .shop_card_continer .card .price h6{
+    font-size: 1.5rem;
+    color: #cf6a40;
+    font-weight: 500;
+}
+
+
+
+/* ========
+offer container start
+-=============== */
+
+.offer_container{
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.295)  url(../image/back.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.offer_container h1{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.offer_container h5{
+    font-size: 5rem;
+    color: #cf6a40;
+}
+
+.offer_container h4{
+    font-size: 1.4rem;
+    letter-spacing: 10px;
+    margin-bottom: 2rem;
+    color: #fff
+}
+
+.offer_container .buttone_box{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto ;
+}
+
+.offer_container .buttone_box .btnhover{
+    background: transparent;
+    border: 2px solid #cf6a40;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(40px);
+}
+
+.offer_container .buttone_box .btnhover:hover{
+    background: #cf6a40;
+}
+.offer_container .buttone_box  .nonehover{
+    border: 2px solid #cf6a40;
+    transition: all 0.3s ease;
+}
+.offer_container .buttone_box  .nonehover:hover{
+    background: transparent;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(40px);
+}
+
+/* ========
+our Team Section start
+-=============== */
+.our_team_conatiner{
+    width: 100%;
+    background:#e5e4ea;
+}
+.our_team_conatiner h1{
+    font-size: 3rem;
+    color: #201b24;
+    text-align: center;
+}
+
+.our_team_conatiner p{
+    font-size: 1.5rem;
+    color: #201b24;
+    text-align: center;
+}
+
+.our_team_conatiner .team_card{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+
+.our_team_conatiner .team_card .card{
+    background: #ffffff;
+    padding-bottom: 2rem;
+    border-radius: 5px;
+}
+.our_team_conatiner .team_card .card img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.our_team_conatiner .team_card .card .details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0rem 1.5rem;
+}
+
+.our_team_conatiner .team_card .card .details  .social{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.our_team_conatiner .team_card .card h2 {
+    padding: .5rem 1.5rem;
+    font-size: 1.5rem;
+}
+
+.our_team_conatiner .team_card .card .details .work span{
+    font-size: 1.1rem;
+}
+
+.our_team_conatiner .team_card .card .details  .social i{
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    color: #cf6a40;
+    transition: all 0.3s linear;
+    border: 1px solid #cf6a40;
+    cursor: pointer;
+}
+
+.our_team_conatiner .team_card .card .details  .social i:hover{
+    background: #cf6a40;
+    color: #fff;
+}
+
+
+/* ========
+footer Section start
+-=============== */
+.footer_container{
+    width: 100%;
+}
+
+.footer_container footer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 100%;
+}
+
+.footer_container footer .footer_box {
+    width: 100%;
+}
+
+.footer_container footer .footer_box h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #414262;
+}
+
+.footer_container footer .footer_box p{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #414262;
+    margin-top: 2rem;
+}
+
+.footer_container footer .company{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.footer_container footer .company h3{
+    font-size: 1.6rem;
+}
+
+.footer_container footer .company a{
+    font-size: 1.6rem;
+    color: #292827;
+    transition: all 1s ease;
+}
+
+.footer_container footer .company a i{
+    display: none;
+    color: #e16952;
+    transition: all 1s ease;
+}
+
+.footer_container footer .company a:hover i{
+    display: initial;
+    transition: all 1s ease;
+
+}
+
+.footer_container footer .company .social{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.footer_container footer .company .social a {
+    font-size: 2rem;
+    color: #d76e57;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 50%;
+    transition: all 0.4s linear;
+}
+
+.footer_container footer .company .social a:hover{
+    background: #d76e57;
+}
+.footer_container footer .company .social a:hover i{
+    color: white;
+}
+.footer_container footer .company .social a i{
+    display: initial;
+    line-height: 40px;
+}
+
+.footer_container footer .company h2{
+    font-size: 1.5rem;
+    color: #292827;
+}
+.footer_container footer .company imag{
+    width: 40px;
+    height: 10px;
+    object-fit: cover;
+}
+
+.footer_container .copy{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+
+
+
+
+/* 
+Movile Responsive
+ */
+@media(max-width: 568px){
+
+    header .buttone{
+        display: none;
+    }
+
+    header .bx{
+        display: initial;
+    }
+
+
+    header .navbar{
+        position:absolute;
+        top:100%;
+        left: -570px;
+        display: block;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: start;
+        background: #fff;
+        box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+        padding: 1rem;
+        z-index: 1000;
+        transition: all 0.3s linear;
+    }
+
+    header .navbar.active{
+        left: 0px;
+        transition: all 0.3s linear;
+    }
+
+    header .navbar li a{
+        display: block;
+        padding: 1rem;
+        background: #cf6a40;
+        color: #fff;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+        border: 2px solid ;
+        border-radius: 5px;
+    }
+
+        header .navbar li a:hover{
+        display: block;
+        padding: 1rem;
+        border: 2px solid #cf6a40;
+        background: transparent;
+        color: #cf6a40;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+
+    header .navbar .none{
+        display: initial;
+    }
+
+    .btn{
+        font-size: 2rem;
+    }
+    
+    .home_container{
+        height: 110vh;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 5rem;
+        background: #f6e6d9;
+    }
+
+    .home_container .home_text_continer p{
+        width: 100%;
+    }
+
+    .home_container .home_text_continer h1{
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .masla_shop .shop_card_continer{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 3rem;
+    }
+
+
+    .our_team_conatiner .team_card{
+        margin-top: 4rem;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 3rem;
+    }
+
+    .footer_container footer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+    }
+}
