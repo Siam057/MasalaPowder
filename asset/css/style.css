@@ -454,6 +454,8 @@ footer Section start
 -=============== */
 .footer_container{
     width: 100%;
+    background: #292827;
+    color: #e5e4ea;
 }
 
 .footer_container footer{
@@ -469,14 +471,14 @@ footer Section start
 .footer_container footer .footer_box h2{
     font-size: 2rem;
     font-weight: 600;
-    color: #414262;
+    color: #fff;
 }
 
 .footer_container footer .footer_box p{
     font-size: 1.2rem;
     letter-spacing: 1px;
     font-weight: 400;
-    color: #414262;
+    color: #fff;
     margin-top: 2rem;
 }
 
@@ -488,12 +490,14 @@ footer Section start
 
 .footer_container footer .company h3{
     font-size: 1.6rem;
+    color: #fff;
 }
 
 .footer_container footer .company a{
     font-size: 1.6rem;
     color: #292827;
     transition: all 1s ease;
+    color: #fff;
 }
 
 .footer_container footer .company a i{
@@ -538,7 +542,7 @@ footer Section start
 
 .footer_container footer .company h2{
     font-size: 1.5rem;
-    color: #292827;
+    color: #fff;
 }
 .footer_container footer .company imag{
     width: 40px;
@@ -550,6 +554,14 @@ footer Section start
     font-size: 1.2rem;
     text-align: center;
     margin-top: 5rem;
+    color: white;
+}
+.footer_container .copy a{
+    color: #cf6a40;
+}
+
+.footer_container .footer_box .logo a{
+    color: white;
 }
 
 
